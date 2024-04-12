@@ -1,4 +1,3 @@
-import org.example.CustomArrayList;
 import org.example.CustomCollection;
 import org.junit.jupiter.api.Test;
 
