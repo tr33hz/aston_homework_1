@@ -11,12 +11,12 @@ public class Main {
         list.add(1);
         list.add(9);
 
-        Comparator<Integer> comparator = Comparator.naturalOrder(); // Создание компаратора для сортировки
+        Comparator<Integer> comparator = Comparator.naturalOrder();
 
-        list.quickSort(comparator); // Вызов метода quickSort для сортировки списка
+        list.quickSort(comparator);
 
         for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i)); // Вывод отсортированных элементов списка
+            System.out.println(list.get(i));
         }
 
     }
